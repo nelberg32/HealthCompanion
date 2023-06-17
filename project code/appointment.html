@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Comp - We Are Best Health Service</title>
+
+  
+  <link rel="shortcut icon" href="h.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-top">
+          <div class="container">
+    
+            <ul class="contact-list">
+    
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+    
+                <a href="healthcomp@gmail.com" class="contact-link">healthcomp.gmail.com.com</a>
+              </li>
+    
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+    
+                <a href="tel:+917052101786" class="contact-link">+91-999-03-10-436</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+        <div class="header-bottom" data-header>
+          <div class="container">
+    
+            <a href="/index.html" class="logo">Health Companion</a>
+    
+            <nav class="navbar container" data-navbar>
+              <ul class="navbar-list">
+    
+                <li>
+                  <a href="/index.html#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+    
+                <li>
+                  <a href="/index.html#services" class="navbar-link" data-nav-link>Services</a>
+                </li>
+    
+                <li>
+                  <a href="/index.html#about" class="navbar-link" data-nav-link>About Us</a>
+                </li>
+    
+                <li>
+                  <a href="/index.html#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+    
+                <li>
+                  <a href="Contact-Form-HTML-CSS-master/contact.php" class="navbar-link" data-nav-link>Contact</a>
+                </li>
+    
+                
+    
+              </ul>
+            </nav>
+    
+            <a href="singup/index.php" class="btn">Registration</a>
+    
+            <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+              <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+              <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+            </button>
+    
+          </div>
+        </div>
+    
+      </header>
+      
+
+    <section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')"
+      aria-label="hero">
+      <div class="container">
+
+        <div class="hero-content">
+
+
+
+
+          <h2 class="hero-text">
+             
+           Book your appointment here!
+          </h2>
+
+          <form action="" id="appointment" class="hero-form">
+            <div>
+            <label for="name">Your Email</label>
+            <input type="email" id="emailid" name="email_address" aria-label="email" placeholder="Your Email Address..." required
+              class="email-field">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="+91XXXXXXXXXX" class="email-field">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Your Name</label>
+                <input type="text" name="Name" id="name" placeholder="Full Name" class="email-field">
+            </div>
+            <br>
+            <div>
+                <label for="services">Select Service you want to opt for</label>
+                <br>
+                <select name="services" id="select-service" style="margin:10px;padding: 5px;background-color: rgb(245, 230, 230);width: 50%;border-color: black;border-radius: 7px;">
+                    <option value="Customised-health">Customized Health</option>
+                    <option value="Personal-Nutritionist">Personal Nutritionist</option>
+                    <option value="Health-tools">Health Tools</option>
+                    <option value="Yoga-classes">Yoga Classes</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Get Call Back</button>
+          </form>
+
+        </div>
+
+        <figure class="hero-banner">
+          <img src="./assets/images/diet.png" width="587" height="839" alt="hero banner" class="w-100">
+        </figure>
+
+      </div>
+    </section>
+      <script src="./assets/js/script.js" defer></script>
+
+      <!-- 
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+      <script src="./new.js"></script>
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+      <script src="./mail.js"></script>
+  
+</body>
+</html>
